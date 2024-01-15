@@ -134,7 +134,7 @@ const HeaderOne = ({
                 <div className="cart-btn">
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
-                      <span className="flaticon-shopping-cart"></span>
+                      {/* <span className="flaticon-shopping-cart"></span> */}
                     </a>
                   </Link>
                 </div>
@@ -144,9 +144,10 @@ const HeaderOne = ({
                     type="button"
                     className="theme-btn search-toggler"
                   >
-                    <span className="flaticon-loupe"></span>
+                    {/* <span className="flaticon-loupe"></span> */}
                   </button>
                 </div>
+
                 <div className="link-box">
                   <div className="call-us">
                     <a
@@ -154,8 +155,8 @@ const HeaderOne = ({
                       href={`tel:${phone.split(" ").join("")}`}
                     >
                       <span className="icon"></span>
-                      <span className="sub-text">Call Anytime</span>
-                      <span className="number">{phone}</span>
+                      <span className="sub-text">Llámanos</span>
+                      <span className="number">+1 631 355 9575</span>
                     </a>
                   </div>
                 </div>

@@ -1,21 +1,28 @@
-import DemoFeatures from "@/components/DemoFeatures/DemoFeatures";
-import DemoGallery from "@/components/DemoGallery/DemoGallery";
-import DemoTop from "@/components/DemoTop/DemoTop";
-import DemoHeader from "@/components/Header/DemoHeader";
+import BannerThree from "@/components/BannerSection/BannerThree";
+import GallerySectionThree from "@/components/GallerySection/GallerySectionThree";
+import HeaderOne from "@/components/Header/HeaderOne";
+import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
-import MainFooterDemo from "@/components/MainFooter/MainFooterDemo";
-import Style from "@/components/Reuseable/Style";
-import React from "react";
+import MainFooter from "@/components/MainFooter/MainFooter";
+import ParallaxSection from "@/components/ParallaxSection/ParallaxSection";
+import ProjectSeven from "@/components/ProjectSection/ProjectSeven";
+import ServiceEight from "@/components/ServicesSection/ServiceEight";
+import WeDOSection from "@/components/WeDOSection/WeDOSection";
+import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home 01">
-      <Style />
-      <DemoHeader />
-      <DemoTop />
-      <DemoGallery />
-      <DemoFeatures />
-      <MainFooterDemo />
+    <Layout pageTitle="Inicio">
+      <HeaderOne headerStyle="header-style-two" logo={4} />
+      <MobileMenu />
+      <BannerThree />
+      <ServiceEight />
+      <GallerySectionThree />
+      <ProjectSeven />
+      <WeWorkSection />
+      <ParallaxSection />
+      <WeDOSection />
+      <MainFooter />
     </Layout>
   );
 };
