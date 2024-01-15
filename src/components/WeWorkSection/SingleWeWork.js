@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
 const SingleWeWork = ({ work = {}, current }) => {
@@ -14,7 +13,9 @@ const SingleWeWork = ({ work = {}, current }) => {
           <div className="inner">
             <div className="image">
               <Image
-                src={require(`@/images/resource/${image}`).default.src}
+                src={
+                  require(`../../assets/images/resource/${image}`).default.src
+                }
                 alt=""
               />
             </div>
@@ -27,7 +28,7 @@ const SingleWeWork = ({ work = {}, current }) => {
                 <p>{text1}</p>
                 <p className="theme_color">{text2}</p>
                 <ul>
-                  {lists.map((text, i) => (
+                  {lists?.map((text, i) => (
                     <li key={i}>{text}</li>
                   ))}
                 </ul>
