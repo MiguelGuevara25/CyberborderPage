@@ -104,27 +104,27 @@ export const projectSix = {
 export const projectSeven = [
   {
     id: 1,
-    image: "project-2-1.jpg",
-    title: "Web Marketing",
-    category: "SEO, Marketin",
+    image: "precintosRFID.png",
+    title: "Precintos RFID",
+    category: "Seguridad en terminales y depósitos",
   },
   {
     id: 2,
-    image: "project-2-2.jpg",
-    title: "Web Marketing",
-    category: "SEO, Marketin",
+    image: "precintoElectronico.png",
+    title: "Precintos Electrónicos",
+    category: "Seguridad de mercadería en tránsitos",
   },
   {
     id: 3,
-    image: "project-2-3.jpg",
-    title: "Web Marketing",
-    category: "SEO, Marketin",
+    image: "scanerRayosX.png",
+    title: "Scanners de Rayos X",
+    category: "Inspección no instrusiva",
   },
   {
     id: 4,
-    image: "project-2-4.jpg",
-    title: "Web Marketing",
-    category: "SEO, Marketin",
+    image: "totemOCR.png",
+    title: "Tótems con OCR",
+    category: "Pórticos inteligentes",
   },
 ];
 
