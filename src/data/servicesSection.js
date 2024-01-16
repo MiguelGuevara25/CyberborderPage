@@ -38,50 +38,50 @@ export const servicesSectionThree = {
 
 export default servicesSection;
 
-export const serviceSectionThree = [
-  {
-    id: 1,
-    icon: "flaticon-responsive",
-    href: "/web-development",
-    title: "Website\nDevelopment",
-  },
-  {
-    id: 2,
-    icon: "flaticon-computer",
-    href: "/graphic-designing",
-    title: "graphic\ndesigning",
-  },
-  {
-    id: 3,
-    icon: "flaticon-digital-marketing",
-    href: "/digital-marketing",
-    title: "digital\nmarketing",
-  },
-  {
-    id: 4,
-    icon: "flaticon-development",
-    href: "/seo",
-    title: "seo & content\nwriting",
-  },
-  {
-    id: 5,
-    icon: "flaticon-app-development",
-    href: "/app-development",
-    title: "App\nDevelopment",
-  },
-  {
-    id: 6,
-    icon: "flaticon-ui",
-    href: "/ui-designing",
-    title: "Ui/UX\ndesigning",
-  },
-];
+// export const serviceSectionThree = [
+//   {
+//     id: 1,
+//     icon: "flaticon-responsive",
+//     href: "/web-development",
+//     title: "Website\nDevelopment",
+//   },
+//   {
+//     id: 2,
+//     icon: "flaticon-computer",
+//     href: "/graphic-designing",
+//     title: "graphic\ndesigning",
+//   },
+//   {
+//     id: 3,
+//     icon: "flaticon-digital-marketing",
+//     href: "/digital-marketing",
+//     title: "digital\nmarketing",
+//   },
+//   {
+//     id: 4,
+//     icon: "flaticon-development",
+//     href: "/seo",
+//     title: "seo & content\nwriting",
+//   },
+//   {
+//     id: 5,
+//     icon: "flaticon-app-development",
+//     href: "/app-development",
+//     title: "App\nDevelopment",
+//   },
+//   {
+//     id: 6,
+//     icon: "flaticon-ui",
+//     href: "/ui-designing",
+//     title: "Ui/UX\ndesigning",
+//   },
+// ];
 
-export const servicesSectionOne = {
-  title: "We Shape the Perfect\nSolutions",
-  text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
-  services: serviceSectionThree,
-};
+// export const servicesSectionOne = {
+//   title: "We Shape the Perfect\nSolutions",
+//   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+//   services: serviceSectionThree,
+// };
 
 export const serviceSix = {
   tagline: "Checkout Our Services",
@@ -146,30 +146,30 @@ export const serviceSeven = [
 ];
 
 export const serviceEight = {
-  text: "Our Services List",
-  title: "What We’re Offering",
+  text: "Comercio Internacional",
+  title: "Conflicto: Logística vs Seguridad",
   services: [
     {
       id: 1,
-      title: "Consumer Products",
+      title: "Crecimiento del comercio marítimo",
       href: "/digital-marketing",
       icon: "flaticon-vector-4",
     },
     {
       id: 2,
-      title: "Audit Marketing",
+      title: "Modernas Embarcaciones",
       href: "/digital-marketing",
       icon: "flaticon-analysis",
     },
     {
       id: 3,
-      title: "Advice Bankings",
+      title: "Terminales pequeñas o con poca tecnología",
       href: "/digital-marketing",
       icon: "flaticon-business",
     },
     {
       id: 4,
-      title: "Marketing Rules",
+      title: "Mayores controles",
       href: "/digital-marketing",
       icon: "flaticon-global",
     },
@@ -183,7 +183,7 @@ export const serviceNine = [
     icon: "flaticon-responsive",
     title: "modern designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/ui-designing",
+    // href: "/ui-designing",
   },
   {
     id: 2,
@@ -191,7 +191,7 @@ export const serviceNine = [
     icon: "flaticon-computer",
     title: "graphic designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/graphic-designing",
+    // href: "/graphic-designing",
   },
   {
     id: 3,
@@ -199,7 +199,7 @@ export const serviceNine = [
     icon: "flaticon-global",
     title: "digital marketing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/digital-marketing",
+    // href: "/digital-marketing",
   },
   {
     id: 4,
@@ -207,7 +207,7 @@ export const serviceNine = [
     icon: "flaticon-development",
     title: "Content Writting",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/seo",
+    // href: "/seo",
   },
   {
     id: 5,
@@ -215,7 +215,7 @@ export const serviceNine = [
     icon: "flaticon-app-development",
     title: "App Development",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/app-development",
+    // href: "/app-development",
   },
   {
     id: 6,
@@ -223,6 +223,6 @@ export const serviceNine = [
     icon: "flaticon-planning",
     title: "ui / ux designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/ui-designing",
+    // href: "/ui-designing",
   },
 ];
