@@ -29,33 +29,38 @@ const MainFooter = ({ normalPadding = true }) => {
       <div className="auto-container">
         <div className="widgets-section">
           <Row className="clearfix">
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={4} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget logo-widget">
                 <div className="widget-content">
                   <div className="logo">
                     <Link href="/">
                       <a>
-                        <Image id="fLogo" src={logo.src} alt="" />
+                        <Image
+                          id="fLogo"
+                          src={logo.src}
+                          alt=""
+                          style={{ height: 100 }}
+                        />
                       </a>
                     </Link>
                   </div>
-                  <div className="text">{text}</div>
+                  {/* <div className="text text-white">{text}</div>
                   <ul className="social-links clearfix">
                     {socials.map(({ id, icon, href }) => (
                       <li key={id}>
                         <a href={href}>
-                          <span className={icon}></span>
+                          <span className={`${icon} text-white`}></span>
                         </a>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={4} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
-                  <h6>Explore</h6>
+                  <h6>Explora</h6>
                   <Row className="clearfix">
                     <Col md={6} sm={12}>
                       <ul>
@@ -66,60 +71,35 @@ const MainFooter = ({ normalPadding = true }) => {
                         ))}
                       </ul>
                     </Col>
-                    <Col md={6} sm={12}>
-                      <ul>
-                        {links.slice(5).map(({ id, href, title }) => (
-                          <li key={id}>
-                            <Link href={href}>{title}</Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </Col>
                   </Row>
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={4} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget info-widget">
                 <div className="widget-content">
-                  <h6>Contact</h6>
+                  <h6>Contacto</h6>
                   <ul className="contact-info">
-                    <li className="address">
-                      <span className="icon flaticon-pin-1"></span>{" "}
+                    {/* <li className="address text-white">
+                      <span className="icon flaticon-pin-1 text-white"></span>{" "}
                       <TextSplit text={address} />
+                    </li> */}
+                    <li>
+                      <span className="icon flaticon-call text-white"></span>
+                      <a
+                        href={`tel:${phone.split(" ").join("")}`}
+                        className="text-white"
+                      >
+                        {phone}
+                      </a>
                     </li>
                     <li>
-                      <span className="icon flaticon-call"></span>
-                      <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
-                    </li>
-                    <li>
-                      <span className="icon flaticon-email-2"></span>
-                      <a href={`mailto:${email}`}>{email}</a>
+                      <span className="icon flaticon-email-2 text-white"></span>
+                      <a href={`mailto:${email}`} className="text-white">
+                        {email}
+                      </a>
                     </li>
                   </ul>
-                </div>
-              </div>
-            </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
-              <div className="footer-widget newsletter-widget">
-                <div className="widget-content">
-                  <h6>Newsletter</h6>
-                  <div className="newsletter-form">
-                    <form onSubmit={handleSubmit}>
-                      <div className="form-group clearfix">
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email Address"
-                          required
-                        />
-                        <button type="submit" className="theme-btn">
-                          <span className="fa fa-envelope"></span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <div className="text">{textBottom}</div>
                 </div>
               </div>
             </Col>
@@ -128,9 +108,9 @@ const MainFooter = ({ normalPadding = true }) => {
       </div>
       <div className="footer-bottom">
         <div className="auto-container">
-          <div className="inner clearfix">
+          <div className="inner clearfix text-white">
             <div className="copyright">
-              &copy; copyright {year} by {author}
+              &copy; Todos los derechos reservados {year} - {author}
             </div>
           </div>
         </div>
